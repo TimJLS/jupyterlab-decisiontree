@@ -1,6 +1,8 @@
 FROM jupyter/datascience-notebook
 ENV NODE_OPTIONS="--max-old-space-size=4096"
 RUN pip install --upgrade jupyterlab-git
+RUN pip install --upgrade mlxtend
+RUN pip install --upgrade tpot
 RUN jupyter labextension install nbdime-jupyterlab --no-build && \
     jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build && \
     jupyter labextension install @jupyterlab/git --no-build && \

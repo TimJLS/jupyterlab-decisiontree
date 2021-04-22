@@ -1,3 +1,3 @@
-# jupyterlab-datascience
+# jupyterlab-decisiontree
 
-add jupyterlab-git extension for jupyter/datascience-notebook image
+
